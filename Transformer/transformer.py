@@ -170,7 +170,6 @@ class TransformerLayer(nn.Module):
 
         return output, attn_weights
     
-
 class Transformer(nn.Module):
     '''Transformer Decoder Implementating several Decoder Layers.
     '''
